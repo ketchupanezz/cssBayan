@@ -1,0 +1,76 @@
+.sh {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.fr {
+    margin: 2% 8% 2% 8%;
+}
+
+.tx {
+    font-size: 140%;
+    font-weight: bold;
+    display: block;
+    
+    cursor: pointer;
+    color: rgba(0, 3, 206, 0.842) ;
+}
+
+.tx:hover {
+    color: black;
+}
+
+.sv {
+    display: block;
+}
+
+.img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+
+    animation-duration: 0.7s;
+    animation-name: img;
+    animation-iteration-count: 1;
+
+    display: none;
+}
+
+.sv:hover+img {
+    display: block;
+}
+
+.img:hover {
+    display: block;
+}
+
+.sv:active+img {
+    color: rgba(0, 3, 206, 0.842);
+}
+
+.god {
+    display: block;
+}
+.god img {
+     display: none;
+}
+.god:hover img {
+     display: block;
+}
+.god:active img {
+    opacity: 0.7;
+}
+.god img:hover {
+     display: block;
+}
+
+@keyframes img {
+    0% {
+        width: 27%;
+    }
+  
+    100% {
+        width: 33%;
+    }
+  }
+
